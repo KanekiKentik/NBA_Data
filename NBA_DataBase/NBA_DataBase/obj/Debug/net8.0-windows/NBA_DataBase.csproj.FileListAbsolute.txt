@@ -18,3 +18,4 @@ C:\Users\user\Documents\Иванчик2252\NBA_DataBase\NBA_DataBase\obj\Debug\n
 C:\Users\user\Documents\Иванчик2252\NBA_DataBase\NBA_DataBase\obj\Debug\net8.0-windows\NBA_DataBase.pdb
 C:\Users\user\Documents\Иванчик2252\NBA_DataBase\NBA_DataBase\obj\Debug\net8.0-windows\NBA_DataBase.genruntimeconfig.cache
 C:\Users\user\Documents\Иванчик2252\NBA_DataBase\NBA_DataBase\obj\Debug\net8.0-windows\ref\NBA_DataBase.dll
+C:\Users\user\Documents\Иванчик2252\NBA_DataBase\NBA_DataBase\bin\Debug\net8.0-windows\HtmlAgilityPack.dll

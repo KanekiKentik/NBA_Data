@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            pictureBox1 = new PictureBox();
             label16 = new Label();
             label15 = new Label();
             label14 = new Label();
@@ -53,7 +54,6 @@
             pdata_FName = new TextBox();
             label5 = new Label();
             label4 = new Label();
-            panel3 = new Panel();
             label3 = new Label();
             panel2 = new Panel();
             label1 = new Label();
@@ -61,12 +61,14 @@
             searchBox = new TextBox();
             playerBox = new ListBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(71, 6, 151);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label16);
             panel1.Controls.Add(label15);
             panel1.Controls.Add(label14);
@@ -91,19 +93,28 @@
             panel1.Controls.Add(pdata_FName);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(panel3);
             panel1.Controls.Add(label3);
-            panel1.Location = new Point(246, 81);
+            panel1.Location = new Point(246, 75);
             panel1.Name = "panel1";
-            panel1.Size = new Size(558, 372);
+            panel1.Size = new Size(558, 378);
             panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Indigo;
+            pictureBox1.Location = new Point(15, 8);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(150, 210);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 26;
+            pictureBox1.TabStop = false;
             // 
             // label16
             // 
             label16.AutoSize = true;
             label16.Font = new Font("Segoe UI", 20F);
             label16.ForeColor = Color.Yellow;
-            label16.Location = new Point(474, 95);
+            label16.Location = new Point(474, 108);
             label16.Name = "label16";
             label16.Size = new Size(51, 37);
             label16.TabIndex = 25;
@@ -113,7 +124,7 @@
             // 
             label15.AutoSize = true;
             label15.ForeColor = Color.Yellow;
-            label15.Location = new Point(488, 50);
+            label15.Location = new Point(488, 63);
             label15.Name = "label15";
             label15.Size = new Size(37, 15);
             label15.TabIndex = 24;
@@ -123,7 +134,7 @@
             // 
             label14.AutoSize = true;
             label14.ForeColor = Color.Yellow;
-            label14.Location = new Point(475, 31);
+            label14.Location = new Point(475, 44);
             label14.Name = "label14";
             label14.Size = new Size(63, 15);
             label14.TabIndex = 23;
@@ -134,7 +145,7 @@
             pdata_College.BackColor = Color.Indigo;
             pdata_College.Font = new Font("Segoe UI", 15F);
             pdata_College.ForeColor = Color.Yellow;
-            pdata_College.Location = new Point(387, 235);
+            pdata_College.Location = new Point(387, 248);
             pdata_College.Name = "pdata_College";
             pdata_College.ReadOnly = true;
             pdata_College.Size = new Size(155, 34);
@@ -145,7 +156,7 @@
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI", 15F);
             label13.ForeColor = Color.FromArgb(242, 242, 0);
-            label13.Location = new Point(387, 204);
+            label13.Location = new Point(387, 217);
             label13.Name = "label13";
             label13.Size = new Size(78, 28);
             label13.TabIndex = 21;
@@ -156,7 +167,7 @@
             pdata_Country.BackColor = Color.Indigo;
             pdata_Country.Font = new Font("Segoe UI", 15F);
             pdata_Country.ForeColor = Color.Yellow;
-            pdata_Country.Location = new Point(387, 167);
+            pdata_Country.Location = new Point(387, 180);
             pdata_Country.Name = "pdata_Country";
             pdata_Country.ReadOnly = true;
             pdata_Country.Size = new Size(155, 34);
@@ -167,7 +178,7 @@
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 15F);
             label12.ForeColor = Color.FromArgb(242, 242, 0);
-            label12.Location = new Point(387, 136);
+            label12.Location = new Point(387, 149);
             label12.Name = "label12";
             label12.Size = new Size(82, 28);
             label12.TabIndex = 19;
@@ -178,7 +189,7 @@
             pdata_Weight.BackColor = Color.Indigo;
             pdata_Weight.Font = new Font("Segoe UI", 15F);
             pdata_Weight.ForeColor = Color.Yellow;
-            pdata_Weight.Location = new Point(387, 99);
+            pdata_Weight.Location = new Point(387, 112);
             pdata_Weight.Name = "pdata_Weight";
             pdata_Weight.ReadOnly = true;
             pdata_Weight.Size = new Size(82, 34);
@@ -189,7 +200,7 @@
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI", 15F);
             label11.ForeColor = Color.FromArgb(242, 242, 0);
-            label11.Location = new Point(387, 69);
+            label11.Location = new Point(387, 82);
             label11.Name = "label11";
             label11.Size = new Size(75, 28);
             label11.TabIndex = 17;
@@ -200,7 +211,7 @@
             pdata_Height.BackColor = Color.Indigo;
             pdata_Height.Font = new Font("Segoe UI", 15F);
             pdata_Height.ForeColor = Color.Yellow;
-            pdata_Height.Location = new Point(387, 31);
+            pdata_Height.Location = new Point(387, 44);
             pdata_Height.Name = "pdata_Height";
             pdata_Height.ReadOnly = true;
             pdata_Height.Size = new Size(82, 34);
@@ -211,7 +222,7 @@
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 15F);
             label10.ForeColor = Color.FromArgb(242, 242, 0);
-            label10.Location = new Point(387, 0);
+            label10.Location = new Point(387, 13);
             label10.Name = "label10";
             label10.Size = new Size(71, 28);
             label10.TabIndex = 15;
@@ -222,7 +233,7 @@
             pdata_DraftRN.BackColor = Color.Indigo;
             pdata_DraftRN.Font = new Font("Segoe UI", 15F);
             pdata_DraftRN.ForeColor = Color.Yellow;
-            pdata_DraftRN.Location = new Point(184, 314);
+            pdata_DraftRN.Location = new Point(184, 327);
             pdata_DraftRN.Name = "pdata_DraftRN";
             pdata_DraftRN.ReadOnly = true;
             pdata_DraftRN.Size = new Size(97, 34);
@@ -233,7 +244,7 @@
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 15F);
             label9.ForeColor = Color.FromArgb(242, 242, 0);
-            label9.Location = new Point(184, 281);
+            label9.Location = new Point(184, 294);
             label9.Name = "label9";
             label9.Size = new Size(198, 28);
             label9.TabIndex = 13;
@@ -244,7 +255,7 @@
             pdata_DraftYear.BackColor = Color.Indigo;
             pdata_DraftYear.Font = new Font("Segoe UI", 15F);
             pdata_DraftYear.ForeColor = Color.Yellow;
-            pdata_DraftYear.Location = new Point(184, 235);
+            pdata_DraftYear.Location = new Point(184, 248);
             pdata_DraftYear.Name = "pdata_DraftYear";
             pdata_DraftYear.ReadOnly = true;
             pdata_DraftYear.Size = new Size(155, 34);
@@ -255,7 +266,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 15F);
             label8.ForeColor = Color.FromArgb(242, 242, 0);
-            label8.Location = new Point(184, 204);
+            label8.Location = new Point(184, 217);
             label8.Name = "label8";
             label8.Size = new Size(97, 28);
             label8.TabIndex = 11;
@@ -266,7 +277,7 @@
             pdata_Jersey.BackColor = Color.Indigo;
             pdata_Jersey.Font = new Font("Segoe UI", 15F);
             pdata_Jersey.ForeColor = Color.Yellow;
-            pdata_Jersey.Location = new Point(184, 167);
+            pdata_Jersey.Location = new Point(184, 180);
             pdata_Jersey.Name = "pdata_Jersey";
             pdata_Jersey.ReadOnly = true;
             pdata_Jersey.Size = new Size(82, 34);
@@ -277,7 +288,7 @@
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 15F);
             label7.ForeColor = Color.FromArgb(242, 242, 0);
-            label7.Location = new Point(184, 136);
+            label7.Location = new Point(184, 149);
             label7.Name = "label7";
             label7.Size = new Size(141, 28);
             label7.TabIndex = 9;
@@ -288,7 +299,7 @@
             pdata_PositionBox.BackColor = Color.Indigo;
             pdata_PositionBox.Font = new Font("Segoe UI", 15F);
             pdata_PositionBox.ForeColor = Color.Yellow;
-            pdata_PositionBox.Location = new Point(184, 99);
+            pdata_PositionBox.Location = new Point(184, 112);
             pdata_PositionBox.Name = "pdata_PositionBox";
             pdata_PositionBox.ReadOnly = true;
             pdata_PositionBox.Size = new Size(155, 34);
@@ -299,7 +310,7 @@
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 15F);
             label6.ForeColor = Color.FromArgb(242, 242, 0);
-            label6.Location = new Point(184, 68);
+            label6.Location = new Point(184, 81);
             label6.Name = "label6";
             label6.Size = new Size(82, 28);
             label6.TabIndex = 7;
@@ -310,7 +321,7 @@
             pdata_TeamBox.BackColor = Color.Indigo;
             pdata_TeamBox.Font = new Font("Segoe UI", 15F);
             pdata_TeamBox.ForeColor = Color.Yellow;
-            pdata_TeamBox.Location = new Point(184, 31);
+            pdata_TeamBox.Location = new Point(184, 44);
             pdata_TeamBox.Name = "pdata_TeamBox";
             pdata_TeamBox.ReadOnly = true;
             pdata_TeamBox.Size = new Size(155, 34);
@@ -321,7 +332,7 @@
             pdata_LName.BackColor = Color.Indigo;
             pdata_LName.Font = new Font("Segoe UI", 15F);
             pdata_LName.ForeColor = Color.Yellow;
-            pdata_LName.Location = new Point(13, 314);
+            pdata_LName.Location = new Point(13, 327);
             pdata_LName.Name = "pdata_LName";
             pdata_LName.ReadOnly = true;
             pdata_LName.Size = new Size(155, 34);
@@ -332,7 +343,7 @@
             pdata_FName.BackColor = Color.Indigo;
             pdata_FName.Font = new Font("Segoe UI", 15F);
             pdata_FName.ForeColor = Color.Yellow;
-            pdata_FName.Location = new Point(13, 235);
+            pdata_FName.Location = new Point(13, 248);
             pdata_FName.Name = "pdata_FName";
             pdata_FName.ReadOnly = true;
             pdata_FName.Size = new Size(155, 34);
@@ -343,7 +354,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 15F);
             label5.ForeColor = Color.FromArgb(242, 242, 0);
-            label5.Location = new Point(184, 1);
+            label5.Location = new Point(184, 14);
             label5.Name = "label5";
             label5.Size = new Size(57, 28);
             label5.TabIndex = 3;
@@ -354,26 +365,18 @@
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 15F);
             label4.ForeColor = Color.FromArgb(242, 242, 0);
-            label4.Location = new Point(10, 281);
+            label4.Location = new Point(10, 294);
             label4.Name = "label4";
             label4.Size = new Size(103, 28);
             label4.TabIndex = 2;
             label4.Text = "Last Name";
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.Indigo;
-            panel3.Location = new Point(13, 9);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(158, 185);
-            panel3.TabIndex = 1;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 15F);
             label3.ForeColor = Color.FromArgb(242, 242, 0);
-            label3.Location = new Point(13, 204);
+            label3.Location = new Point(13, 217);
             label3.Name = "label3";
             label3.Size = new Size(106, 28);
             label3.TabIndex = 0;
@@ -385,7 +388,7 @@
             panel2.Controls.Add(label1);
             panel2.Location = new Point(-1, -2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(805, 86);
+            panel2.Size = new Size(805, 77);
             panel2.TabIndex = 1;
             // 
             // label1
@@ -393,11 +396,11 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 35F);
             label1.ForeColor = Color.Yellow;
-            label1.Location = new Point(128, 11);
+            label1.Location = new Point(128, 0);
             label1.Name = "label1";
             label1.Size = new Size(581, 62);
             label1.TabIndex = 0;
-            label1.Text = "NBA players DataBase v1.0";
+            label1.Text = "NBA players DataBase v1.1";
             // 
             // label2
             // 
@@ -445,6 +448,7 @@
             Text = "Form1";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ResumeLayout(false);
@@ -459,7 +463,6 @@
         private Label label2;
         private TextBox searchBox;
         private ListBox playerBox;
-        private Panel panel3;
         private Label label3;
         private TextBox pdata_LName;
         private TextBox pdata_FName;
@@ -485,5 +488,6 @@
         private Label label16;
         private Label label15;
         private Label label14;
+        private PictureBox pictureBox1;
     }
 }

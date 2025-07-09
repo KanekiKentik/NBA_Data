@@ -1,6 +1,10 @@
+using System.Net;
+using System.Net.Http;
 using System.Xml.Linq;
+using HtmlAgilityPack;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace NBA_DataBase
 {
@@ -15,7 +19,7 @@ namespace NBA_DataBase
         }
 
 
-        private void OnSearchBoxKeyDown(object sender, KeyEventArgs e)
+        private async void OnSearchBoxKeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -46,12 +50,33 @@ namespace NBA_DataBase
                 }
             }
         }
+        private void SetPlayerImageByURL(Player player)
+        {
+            using(WebClient web = new WebClient())
+            {
+                string url = $"https://www.basketball-reference.com/req/202106291/images/players/{player.last_name.Substring(0, 5).ToLower()}{player.first_name.Substring(0, 2).ToLower()}01.jpg";
+                try
+                {
+                    byte[] imageBytes = web.DownloadData(url);
 
+                    using (MemoryStream ms = new MemoryStream(imageBytes))
+                    {
+                        pictureBox1.Image = Image.FromStream(ms);
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    pictureBox1.Image = null;
+                }
+            }
+        }
         private void playerBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (playerBox.SelectedItem != null)
             {
                 Player selected = playerBox.SelectedItem as Player;
+                SetPlayerImageByURL(selected);
 
                 if (selected != null)
                 {
