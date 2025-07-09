@@ -16,6 +16,8 @@ namespace NBA_DataBase
             Form1.Instance = this;
 
             InitializeComponent();
+
+            label1.BackColor = Color.FromArgb(0, 255, 255, 255);
         }
 
 
@@ -98,6 +100,7 @@ namespace NBA_DataBase
             pdata_PositionBox.Text = player.position;
             pdata_TeamBox.Text = player.team.full_name;
             pdata_Weight.Text = player.weight;
+            pdata_id.Text = player.id;
         }
     }
 }

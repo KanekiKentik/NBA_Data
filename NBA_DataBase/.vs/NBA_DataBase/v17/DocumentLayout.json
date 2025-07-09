@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form1.cs",
               "RelativeDocumentMoniker": "NBA_DataBase\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form1.cs",
               "RelativeToolTip": "NBA_DataBase\\Form1.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAArwEUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwGAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T22:20:12.156Z",
               "EditorCaption": ""
@@ -75,16 +75,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Player.cs",
               "RelativeDocumentMoniker": "NBA_DataBase\\Player.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Player.cs",
               "RelativeToolTip": "NBA_DataBase\\Player.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T22:18:57.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T22:18:57.786Z"
             },
             {
               "$type": "Document",
@@ -94,7 +93,7 @@
               "RelativeDocumentMoniker": "NBA_DataBase\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form1.Designer.cs",
               "RelativeToolTip": "NBA_DataBase\\Form1.Designer.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAiwM0BAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T22:17:42.687Z",
               "EditorCaption": ""

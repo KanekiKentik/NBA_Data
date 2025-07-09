@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            pdata_id = new TextBox();
+            label17 = new Label();
             pictureBox1 = new PictureBox();
             label16 = new Label();
             label15 = new Label();
@@ -57,17 +60,31 @@
             label3 = new Label();
             panel2 = new Panel();
             label1 = new Label();
+            pictureBox7 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox2 = new PictureBox();
             label2 = new Label();
             searchBox = new TextBox();
             playerBox = new ListBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(71, 6, 151);
+            panel1.Controls.Add(pdata_id);
+            panel1.Controls.Add(label17);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label16);
             panel1.Controls.Add(label15);
@@ -98,6 +115,28 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(558, 378);
             panel1.TabIndex = 0;
+            // 
+            // pdata_id
+            // 
+            pdata_id.BackColor = Color.Indigo;
+            pdata_id.Font = new Font("Segoe UI", 15F);
+            pdata_id.ForeColor = Color.Yellow;
+            pdata_id.Location = new Point(387, 327);
+            pdata_id.Name = "pdata_id";
+            pdata_id.ReadOnly = true;
+            pdata_id.Size = new Size(155, 34);
+            pdata_id.TabIndex = 28;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 15F);
+            label17.ForeColor = Color.FromArgb(242, 242, 0);
+            label17.Location = new Point(391, 294);
+            label17.Name = "label17";
+            label17.Size = new Size(29, 28);
+            label17.TabIndex = 27;
+            label17.Text = "id";
             // 
             // pictureBox1
             // 
@@ -386,6 +425,12 @@
             // 
             panel2.BackColor = Color.FromArgb(64, 5, 112);
             panel2.Controls.Add(label1);
+            panel2.Controls.Add(pictureBox7);
+            panel2.Controls.Add(pictureBox6);
+            panel2.Controls.Add(pictureBox5);
+            panel2.Controls.Add(pictureBox4);
+            panel2.Controls.Add(pictureBox3);
+            panel2.Controls.Add(pictureBox2);
             panel2.Location = new Point(-1, -2);
             panel2.Name = "panel2";
             panel2.Size = new Size(805, 77);
@@ -394,13 +439,74 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 35F);
             label1.ForeColor = Color.Yellow;
-            label1.Location = new Point(128, 0);
+            label1.Location = new Point(126, 23);
             label1.Name = "label1";
             label1.Size = new Size(581, 62);
             label1.TabIndex = 0;
-            label1.Text = "NBA players DataBase v1.1";
+            label1.Text = "NBA players DataBase v1.2";
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(725, 0);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(77, 77);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 6;
+            pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(585, 0);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(77, 77);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 5;
+            pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(443, 4);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(70, 70);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 4;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(280, 0);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(77, 77);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 3;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(140, 4);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(70, 70);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 2;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(0, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(77, 77);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
             // 
             // label2
             // 
@@ -451,6 +557,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -489,5 +601,13 @@
         private Label label15;
         private Label label14;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox6;
+        private TextBox pdata_id;
+        private Label label17;
     }
 }
