@@ -10,7 +10,22 @@ namespace NBA_DataBase
 {
     public partial class Form1 : Form
     {
-        public static Form1 Instance { get; private set; }
+        private static Form1 _instance;
+        public static Form1 Instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new Form1();
+                }
+                return _instance;
+            }
+            set
+            {
+                _instance = value;
+            }
+        }
         public Form1()
         {
             Form1.Instance = this;
@@ -21,13 +36,13 @@ namespace NBA_DataBase
         }
 
 
-        private async void OnSearchBoxKeyDown(object sender, KeyEventArgs e)
+        private void OnSearchBoxKeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
                 playerBox.Items.Clear();
 
-                string url = $"https://api.balldontlie.io/v1/players?search={searchBox.Text}&per_page=100";
+                string url = $"https://api.balldontlie.io/v1/players?search={searchBox.Text}";
 
                 using (HttpClient client = new HttpClient())
                 {
@@ -52,36 +67,15 @@ namespace NBA_DataBase
                 }
             }
         }
-        private void SetPlayerImageByURL(Player player)
-        {
-            using(WebClient web = new WebClient())
-            {
-                string url = $"https://www.basketball-reference.com/req/202106291/images/players/{player.last_name.Substring(0, 5).ToLower()}{player.first_name.Substring(0, 2).ToLower()}01.jpg";
-                try
-                {
-                    byte[] imageBytes = web.DownloadData(url);
-
-                    using (MemoryStream ms = new MemoryStream(imageBytes))
-                    {
-                        pictureBox1.Image = Image.FromStream(ms);
-                    }
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.Message);
-                    pictureBox1.Image = null;
-                }
-            }
-        }
         private void playerBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (playerBox.SelectedItem != null)
             {
                 Player selected = playerBox.SelectedItem as Player;
-                SetPlayerImageByURL(selected);
 
                 if (selected != null)
                 {
+                    SetPlayerImageByURL(selected);
                     UpdatePlayerData(selected);
                 }
             }
@@ -100,7 +94,33 @@ namespace NBA_DataBase
             pdata_PositionBox.Text = player.position;
             pdata_TeamBox.Text = player.team.full_name;
             pdata_Weight.Text = player.weight;
-            pdata_id.Text = player.id;
+        }
+        private void SetPlayerImageByURL(Player player)
+        {
+            using (WebClient web = new WebClient())
+            {
+                string url = $"https://www.basketball-reference.com/req/202106291/images/players/{player.last_name.Substring(0, 5).ToLower()}{player.first_name.Substring(0, 2).ToLower()}01.jpg";
+                try
+                {
+                    byte[] imageBytes = web.DownloadData(url);
+
+                    using (MemoryStream ms = new MemoryStream(imageBytes))
+                    {
+                        pictureBox1.Image = Image.FromStream(ms);
+                    }
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Ошибка при попытке найти фотографию игрока!");
+                    pictureBox1.Image = null;
+                }
+            }
+        }
+        private void switchFormButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Form2.Instance.Show();
         }
     }
 }

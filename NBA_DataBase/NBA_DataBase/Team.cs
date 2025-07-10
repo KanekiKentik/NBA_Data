@@ -15,5 +15,10 @@ namespace NBA_DataBase
         public string name { get; set; }
         public string full_name { get; set; }
         public string abbreviation { get; set; }
+
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }
