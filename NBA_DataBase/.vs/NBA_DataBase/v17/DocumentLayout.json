@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\nba_database\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|c:\\users\\user\\documents\\\u0438\u0432\u0430\u043D\u0447\u0438\u043A2252\\nba_database\\nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|solutionrelative:nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{153862FE-CE13-4158-AF93-244F3CDE6DC8}|NBA_DataBase\\NBA_DataBase.csproj|C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\nba_database\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -42,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form2.cs",
               "RelativeDocumentMoniker": "NBA_DataBase\\Form2.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form2.cs",
               "RelativeToolTip": "NBA_DataBase\\Form2.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAADwv2QAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCEAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T05:53:16.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form2.cs",
               "RelativeDocumentMoniker": "NBA_DataBase\\Form2.cs",
@@ -71,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form1.cs",
               "RelativeDocumentMoniker": "NBA_DataBase\\Form1.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\\u0418\u0432\u0430\u043D\u0447\u0438\u043A2252\\NBA_DataBase\\NBA_DataBase\\Form1.cs",
               "RelativeToolTip": "NBA_DataBase\\Form1.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAIwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwEAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T22:20:12.156Z",
               "EditorCaption": ""

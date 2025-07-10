@@ -30,6 +30,8 @@ namespace NBA_DataBase
         public Form2()
         {
             InitializeComponent();
+
+            this.FormClosing += (sender, e) => Application.Exit();
         }
 
         private void UpdateTeams()
@@ -56,7 +58,7 @@ namespace NBA_DataBase
                 }
                 catch (Exception exeption)
                 {
-                    MessageBox.Show($"Ошибка запроса (скорее всего превышено количество запросов в минуту!)");
+                    MessageBox.Show($"Ошибка запроса\n(скорее всего превышено количество запросов в минуту!)");
                 }
             }
         }

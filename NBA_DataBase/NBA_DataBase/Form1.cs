@@ -62,7 +62,7 @@ namespace NBA_DataBase
                     }
                     catch (Exception exeption)
                     {
-                        MessageBox.Show($"Ошибка запроса (скорее всего превышено количество запросов в минуту!)");
+                        MessageBox.Show($"Ошибка запроса\n(скорее всего превышено количество запросов в минуту!)");
                     }
                 }
             }

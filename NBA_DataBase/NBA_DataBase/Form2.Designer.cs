@@ -339,12 +339,11 @@
             // searchButton
             // 
             searchButton.BackColor = Color.Yellow;
-            searchButton.Font = new Font("Segoe UI", 9F);
-            searchButton.Location = new Point(5, 125);
+            searchButton.Location = new Point(5, 123);
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(178, 23);
             searchButton.TabIndex = 5;
-            searchButton.Text = "Поиск";
+            searchButton.Text = "Поиск команд";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += searchButton_Click;
             // 
