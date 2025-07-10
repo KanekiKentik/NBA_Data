@@ -54,9 +54,9 @@ namespace NBA_DataBase
                         teamBox.Items.Add(team);
                     }
                 }
-                catch (HttpRequestException exeption)
+                catch (Exception exeption)
                 {
-                    Console.WriteLine($"Ошибка запроса: {exeption.Message}");
+                    MessageBox.Show($"Ошибка запроса (скорее всего превышено количество запросов в минуту!)");
                 }
             }
         }
@@ -68,6 +68,7 @@ namespace NBA_DataBase
 
                 if (selected != null)
                 {
+                    SetTeamImageByURL(selected);
                     UpdateTeamData(selected);
                 }
             }
@@ -80,6 +81,27 @@ namespace NBA_DataBase
             tdata_Division.Text = team.division;
             tdata_FullName.Text = team.full_name;
             tdata_Name.Text = team.name;
+        }
+        private void SetTeamImageByURL(Team team)
+        {
+            using (WebClient web = new WebClient())
+            {
+                string url = $"https://cdn.ssref.net/req/202507021/tlogo/bbr/{team.abbreviation}-2025.png";
+                try
+                {
+                    byte[] imageBytes = web.DownloadData(url);
+
+                    using (MemoryStream ms = new MemoryStream(imageBytes))
+                    {
+                        pictureBox1.Image = Image.FromStream(ms);
+                    }
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Ошибка при попытке найти лого команды!");
+                    pictureBox1.Image = null;
+                }
+            }
         }
         private void switchFormButton_Click(object sender, EventArgs e)
         {

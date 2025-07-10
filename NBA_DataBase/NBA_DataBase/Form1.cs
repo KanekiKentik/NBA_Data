@@ -60,9 +60,9 @@ namespace NBA_DataBase
                             playerBox.Items.Add(found);
                         }
                     }
-                    catch (HttpRequestException exeption)
+                    catch (Exception exeption)
                     {
-                        Console.WriteLine($"Ошибка запроса: {exeption.Message}");
+                        MessageBox.Show($"Ошибка запроса (скорее всего превышено количество запросов в минуту!)");
                     }
                 }
             }

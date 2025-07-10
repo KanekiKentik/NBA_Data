@@ -1,0 +1,47 @@
+[33mcommit 1c8e33d7246121e3ba240463ed7e3e5e8a64e73b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/teamsDataBase[m[33m, [m[1;31morigin/feature/teamsDataBase[m[33m)[m
+Author: KanekiKentik <ghoulyonish@gmail.com>
+Date:   Thu Jul 10 16:28:58 2025 +0300
+
+    Изменение README
+
+[33mcommit 62c731139418d8ff55c5e6b862d990bf50420546[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Thu Jul 10 16:09:53 2025 +0300
+
+    Первая версия базы данных команд NBA
+
+[33mcommit 4ab55d5c740d1ca362d782e0bbff1ad0958f4ee6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Wed Jul 9 04:35:56 2025 +0300
+
+    Небольшое изменение дизайна, добавлено поле id игрока
+
+[33mcommit ca44029be4b35717d5d3752f0ad84e227fbab7c7[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Wed Jul 9 03:22:10 2025 +0300
+
+    Добавление фотографии игрока возле характеристик
+
+[33mcommit e110b4d1813a5d0794a3dbeced9c31367fcc12ae[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Wed Jul 9 01:25:21 2025 +0300
+
+    Добавление поиска игроков по имени/фамилии
+
+[33mcommit ed56bd559654e28092297b3206700125aa5cd430[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Tue Jul 8 22:57:58 2025 +0300
+
+    Начало разработки проекта RestAPI
+
+[33mcommit 87cec22708c1c8d8807c89e94409a33468a5780a[m
+Author: Ivanchik Daniil <ghoulyonish@gmail.com>
+Date:   Tue Jul 8 22:53:37 2025 +0300
+
+    README chaged
+
+[33mcommit 4dffb04080227a8ec25f94002f34011afa0d0afa[m
+Author: KanekiKentik <ghoulyonish@gmail.com>
+Date:   Tue Jul 8 22:44:07 2025 +0300
+
+    Initial commit
